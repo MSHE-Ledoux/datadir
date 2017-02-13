@@ -24,11 +24,11 @@ export CATALINA_OPTS="${CATALINA_OPTS} -Dgeorchestra.datadir="/etc/georchestra"
 
 ## 3-steps editing
 
-Before using this datadir, you should at least change the default FQDN (`georchestra.mydomain.org`) for yours.
+Before using this datadir, you should at least change the default FQDN (`georchestra-docker.umrthema.univ-fcomte.fr`) for yours.
 This can be done very easily with eg:
 ```
 cd /etc/georchestra
-find ./ -type f -exec sed -i 's/georchestra.mydomain.org/my.fqdn/' {} \;
+find ./ -type f -exec sed -i 's/georchestra-docker.umrthema.univ-fcomte.fr/my.fqdn/' {} \;
 ```
 ...where `my.fqdn` is your server's FQDN.
 
