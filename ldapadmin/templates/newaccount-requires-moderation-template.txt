@@ -1,11 +1,11 @@
 Dear admin,
 
-A new account has been created on https://georchestra-docker.umrthema.univ-fcomte.fr/ and is waiting for validation.
+A new account has been created on https://georchestra-dev.umrthema.univ-fcomte.fr/ and is waiting for validation.
 
 User name: {name}
 User ID: {uid}
 
-Visit https://georchestra-docker.umrthema.univ-fcomte.fr/ldapadmin/console/#/groups/PENDING/users to review the pending users.
+Visit https://georchestra-dev.umrthema.univ-fcomte.fr/ldapadmin/console/#/groups/PENDING/users to review the pending users.
 
 ---
-Sent by geOrchestra (https://georchestra-docker.umrthema.univ-fcomte.fr)
+Sent by geOrchestra (https://georchestra-dev.umrthema.univ-fcomte.fr)
