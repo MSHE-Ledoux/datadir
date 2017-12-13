@@ -35,6 +35,10 @@
         {
             "name": "IFREMER/Océanographie physique",
             "url": "http://www.ifremer.fr/services/wms/oceanographie_physique"
+        },
+        {
+            "name": "The MSHE geOrchestra WMS geoserver",
+            "url": "https://georchestra-docker.umrthema.univ-fcomte.fr/geoserver/wms"
         }
     ]
 }

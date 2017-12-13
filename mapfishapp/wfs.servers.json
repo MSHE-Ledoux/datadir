@@ -7,6 +7,10 @@
         {
             "name": "GéoBretagne",
             "url": "http://geobretagne.fr/geoserver/wfs"
+        },
+        {
+            "name": "The MSHE geOrchestra WFS geoserver",
+            "url": "https://georchestra-docker.umrthema.univ-fcomte.fr/geoserver/wfs"
         }
     ]
 }
