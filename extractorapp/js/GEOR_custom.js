@@ -16,13 +16,6 @@ GEOR.custom = {
     HEADER_HEIGHT: 90,
 
     /**
-     * Constant: DOWNLOAD_FORM
-     * Boolean: should the app display a form requesting user data and data usage ?
-     * Defaults to true (see shared.download_form.activated var in shared.maven.filters file)
-     */
-    DOWNLOAD_FORM: false,
-
-    /**
      * Constant: PDF_URL
      * String: the URL to the downloaded data Terms Of Use
      * Defaults to /header/cgu.pdf (see shared.download_form.pdf_url var in shared.maven.filters file)
@@ -94,7 +87,7 @@ GEOR.custom = {
 
     /**
      * Constant: MAX_LENGTH
-     * The maximum number of chars in a XML response 
+     * The maximum number of chars in a XML response
      * before triggering an alert.
      */
     //MAX_LENGTH: 500000,
@@ -212,14 +205,14 @@ GEOR.custom = {
      * Defaults to null, which means scales will be automatically computed
      */
     //GEOGRAPHIC_MAP_SCALES: null,
-        
+
     /**
      * Constant: MAP_POS_SRS1
      * {String} The cursor position will be displayed using this SRS.
      * Defaults to "EPSG:4326"
      */
     //MAP_POS_SRS1: "EPSG:4326",
-    
+
     /**
      * Constant: MAP_POS_SRS2
      * {String} The cursor position will be displayed using this SRS.
@@ -240,7 +233,7 @@ GEOR.custom = {
      * Defaults to true
      */
     //LAYERS_CHECKED: true,
-    
+
     /**
      * Constant: BUFFER_VALUES
      * {Array} Array of buffer values with their display name
@@ -255,7 +248,7 @@ GEOR.custom = {
         [5000, "BUFFER kilometers"],
         [10000, "BUFFER kilometers"]
     ],*/
-    
+
     /**
      * Constant: DEFAULT_BUFFER_VALUE
      * Default buffer value in meters.
@@ -263,28 +256,28 @@ GEOR.custom = {
      * Defaults to 0
      */
     //DEFAULT_BUFFER_VALUE: 0,
-        
+
     /**
      * Constant: STARTUP_LAYERS
      * {Array} OGC layers loaded at startup if none are sent
      */
-    STARTUP_LAYERS: [
+    STARTUP_LAYERS: [/*
         {
             owstype: "WMS",
-            owsurl: "https://sdi.georchestra.org/geoserver/wms",
+            owsurl: "https://my.server.org/geoserver/wms",
             layername: "gshhs:GSHHS_l_L2"
-        }
+        }*/
     ],
-    
+
     /**
      * Constant: STARTUP_SERVICES
      * {Array} OGC services loaded at startup if none are sent
      */
     STARTUP_SERVICES: [
         {
-            text: "Example layers",
+            text: "Local OGC service",
             owstype: "WMS",
-            owsurl: "https://sdi.georchestra.org/geoserver/wms"
+            owsurl: "/geoserver/wms"
         }
     ]
 
@@ -315,9 +308,9 @@ GEOR.custom = {
     /**
      * Constant: HELP_URL
      * {String} URL of the help ressource.
-     * Defaults to "http://cms.geobretagne.fr/assistance"
+     * Defaults to "https://cms.geobretagne.fr/etiquettes/tutoriels"
      *
-    ,HELP_URL: "http://cms.geobretagne.fr/assistance"
+    ,HELP_URL: "https://cms.geobretagne.fr/etiquettes/tutoriels"
     */
 
     // No trailing comma for the last line (or IE will complain)
