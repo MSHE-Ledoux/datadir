@@ -6,4 +6,4 @@ geOrchestra platform has been modified.
 Your new login is now: {uid}
 
 ---
-Sent by geOrchestra (https://georchestra-dev.umrthema.univ-fcomte.fr/)
+Sent by geOrchestra (https://georchestra-docker.umrthema.univ-fcomte.fr/)

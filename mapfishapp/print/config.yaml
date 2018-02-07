@@ -45,7 +45,7 @@ brokenUrlPlaceholder: file:///etc/georchestra/mapfishapp/print/transparent.gif
 security:
   - !basicAuth
     matcher: !dnsMatch
-      host: georchestra-dev.umrthema.univ-fcomte.fr
+      host: georchestra-docker.umrthema.univ-fcomte.fr
     username: geoserver_privileged_user
     password: gerlsSnFd6SmM
     preemptive: true

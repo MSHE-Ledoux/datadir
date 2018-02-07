@@ -24,21 +24,21 @@ GEOR.custom = {
      * The URL to the GeoNetwork server.
      * Defaults to "/geonetwork/srv/fre"
      */
-    GEONETWORK_URL: "https://georchestra-dev.umrthema.univ-fcomte.fr/geonetwork/srv/fre",
+    GEONETWORK_URL: "https://georchestra-docker.umrthema.univ-fcomte.fr/geonetwork/srv/fre",
 
     /**
      * Constant: VIEWER_URL
      * The URL to Mapfishapp
      * Defaults to "/mapfishapp/"
      */
-    VIEWER_URL: "https://georchestra-dev.umrthema.univ-fcomte.fr/mapfishapp/",
+    VIEWER_URL: "https://georchestra-docker.umrthema.univ-fcomte.fr/mapfishapp/",
 
     /**
      * Constant: EXTRACTOR_URL
      * The URL to Extractorapp
      * Defaults to "/extractorapp/"
      */
-    EXTRACTOR_URL: "https://georchestra-dev.umrthema.univ-fcomte.fr/extractorapp/"
+    EXTRACTOR_URL: "https://georchestra-docker.umrthema.univ-fcomte.fr/extractorapp/"
 
     /**
      * Constant: MAP_DOTS_PER_INCH

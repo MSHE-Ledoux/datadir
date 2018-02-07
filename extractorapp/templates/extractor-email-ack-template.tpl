@@ -5,4 +5,4 @@ If you have not requested an extraction, please just ignore this message.
 This e-mail is sent automatically, any answer will be ignored.
 
 ---
-Sent by geOrchestra (https://georchestra-dev.umrthema.univ-fcomte.fr/)
+Sent by geOrchestra (https://georchestra-docker.umrthema.univ-fcomte.fr/)
