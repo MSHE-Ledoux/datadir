@@ -563,7 +563,7 @@ GEOR.custom = {
      * {RegExp}
      * PLatform layers only with this config
      */
-    EDITABLE_LAYERS: /.*georchestra.mydomain.org.*/i,
+    EDITABLE_LAYERS: /.*georchestra-docker.umrthema.univ-fcomte.fr.*/i,
 
     /**
      * Constant: FORCE_LOGIN_IN_TOOLBAR
